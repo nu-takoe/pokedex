@@ -1,0 +1,20 @@
+@import'./variables.scss';
+
+.nav-btns {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 15px;
+    height: 30px;
+
+    button {
+        border: none;
+        background-color: $new-white;
+        width: 180px;
+        font-family: 'Segoe UI';
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        line-height: 10px;
+    }
+}

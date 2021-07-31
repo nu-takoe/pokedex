@@ -1,0 +1,32 @@
+@import'./variables.scss';
+
+.result-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: $new-white;
+    padding: 10px;
+    border-radius: 5px;
+
+    img {
+        width: 250px;
+    }
+
+    h2 {
+        margin: 20px;
+    }
+
+    .card-info {
+        display: flex;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+
+        p {
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+    }
+}

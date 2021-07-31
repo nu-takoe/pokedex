@@ -1,0 +1,12 @@
+@import'./variables.scss';
+
+.alert {
+    width: 100vw;
+    background-color: $new-white;
+    color: $new-black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    height: 25px;
+}
